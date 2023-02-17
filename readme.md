@@ -1,0 +1,2 @@
+Eu entendi que a Engenharia de Software está relacionada com construir algo que acompanhe as constantes mudanças externas do que se é exigido, tendo em vista que acompanhar essas mudanças é arriscado, tanto para
+a eficiência quanto para o tempo.
