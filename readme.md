@@ -1,5 +1,7 @@
 1. Eu entendi que a Engenharia de Software está relacionada com construir algo que acompanhe as constantes mudanças externas do que se é exigido, tendo em vista que acompanhar essas mudanças é arriscado, tanto para
-a eficiência quanto para o tempo.
+a eficiência quanto para o tempo. Ou seja, tempo, escala e trade-offs - estando sempre sujeita a mudanças.
+- A relação com programação:
+  A relação com a programação envolve a manutenção e o tempo, como o desenvolvimento desse software compromete estes dois fatores.
 
 2. O que são requisitos:
 </br> 2.1 
