@@ -35,6 +35,9 @@ public class Empresa {
         for(Area area:areas){
             if(area.getNome().equals(nomeArea)){
                 areasEncontradas.add(area);
+                for(int i = 0; i < areasEncontradas.size();i++){
+                    System.out.println(areasEncontradas.get(i).getNome());
+                }
             }
         }
         return areasEncontradas;

@@ -29,4 +29,48 @@ public class MainTest {
        nathalia.setSalario(nathalia, 2000.00);
     }
     
+        @org.junit.jupiter.api.Test
+        public void testMainP2(){
+        Empresa empresa = new Empresa("124758","Accenture",new LinkedList<Area>());
+        Area area = new Area("RH", new LinkedList<Funcionario>(),new Localizacao(05,"1,7,12"));
+        empresa.addArea(area);
+        Funcionario renata = new Funcionario("Renata Vieira",32, "Analista de projetos I",2000.00);
+        area.addFuncionario(renata);
+        area.getFuncionarioNome("Renata Vieira");
+        
+        Funcionario renan =  new Funcionario("Renan Sardinha",22,"Estagiario de projetos",1300.00);
+        area.addFuncionario(renan);
+        area.getFuncionarios();
+        empresa.getAreas();
+        
+       renata.setSalario(renan, 1950.00);
+       renan.getSalario();
+       renan.setSalario(renan, 2000.00);
+    }
+        
+        @org.junit.jupiter.api.Test
+        public void testMainP3(){
+        Empresa empresa = new Empresa("124758","Accenture",new LinkedList<Area>());
+        Area area = new Area("RH", new LinkedList<Funcionario>(),new Localizacao(05,"1,7,12"));
+        empresa.addArea(area);
+        Funcionario renata = new Funcionario("Renata Vieira",32, "Analista de projetos I",2000.00);
+        area.addFuncionario(renata);
+        area.getFuncionarioNome("Renata Vieira");
+        
+        Funcionario renan =  new Funcionario("Renan Sardinha",22,"Estagiario de projetos",1300.00);
+        area.addFuncionario(renan);
+        area.getFuncionarios();
+        empresa.getAreas();
+        
+       renata.setSalario(renan, 1950.00);
+       renan.getSalario();
+       renan.setSalario(renan, 2000.00);
+       
+       Area areaNova = new Area("Suporte", new LinkedList<Funcionario>(), new Localizacao(06,"6,4,2"));
+       empresa.addArea(areaNova);
+       empresa.buscarAreaPorNome("Suporte");
+    }
+        
+        
+    
 }

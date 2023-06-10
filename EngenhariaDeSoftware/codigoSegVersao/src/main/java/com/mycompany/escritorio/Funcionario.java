@@ -52,6 +52,7 @@ public class Funcionario {
         if(this.cargo == "Gestor"){
             funcionario.salario = salarioNovo;
             funcionario.getSalario();
+            System.out.println("Operação possível.");
             
         }
         else{
